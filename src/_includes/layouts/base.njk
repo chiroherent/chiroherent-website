@@ -2,25 +2,41 @@
 <html lang="{{ metadata.language }}" class="backgroundsecondary">
 
 <head>
+{%- set metaTitle %}{% if title %}{{ title }} - {% endif %}{{ metadata.name }}{% endset %}
+{%- set metaURL %}{{ site.url | url }}{{ page.url }}{% endset %}
+{%- set metaFavicon %}{% if favicon %}{{ favicon | url }}{% else %}{{ '/media/favicon.ico' | url }}{% endif %}{% endset %}
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if title %}{{ title }} - {% endif %}{{ metadata.name }}</title>
-  <meta name="title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.name }}">
+  <title>{{ metaTitle }}</title>
+  <meta name="title" content="{{ metaTitle }}">
   <meta name="description" content="{{ metadata.description }}">
   <meta name="author" content="{{ metadata.name }}">
+  <meta property="og:image" content="{{ '/media/leidingspagina.jpg' | url }}" />
+  <meta property="og:url" content="{{ metaURL }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ metaTitle }}" />
+  <meta property="og:description" content="{{ metadata.description }}" />
+  <meta property="og:site_name" content="{{ metadata.name }}" />
+  <meta property="og:locale" content="{{ metadata.language }}">
+  <meta name="DC.title" content="{{ metaTitle }}" />
   <meta name="generator" content="{{ eleventy.generator }}">
   <meta name="robots" content="index">
-  <link rel="canonical" href="{{ site.url | url }}{{ page.url }}">
-  <link rel="shortcut icon" {% if favicon %}href="{{ favicon | url }}" {% else %}href="{{ '/media/favicon.ico' | url }}" {% endif %} type="image/x-icon">
-  <link rel="apple-touch-icon" href="{{ '/media/leidingspagina.jpg' | url }}">
+  <link rel="canonical" href="{{ metaURL }}">
+  <link rel="shortcut icon" href="{{ metaFavicon }}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ metaFavicon }}">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
   <link rel="stylesheet" href="{{ '/css/style.css' | url }} ">
+  <meta name="theme-color" content="#e51836">
+  <meta name="geo.region" content="{{ metadata.address.regionCode }}" />
+  <meta name="geo.placename" content="{{ metadata.address.city }}" />
+  <meta name="geo.position" content="{{ metadata.address.coordinates[0] }};{{ metadata.address.coordinates[1] }}" />
+  <meta name="ICBM" content="{{ metadata.address.coordinates }}" />
 </head>
 
 <body>

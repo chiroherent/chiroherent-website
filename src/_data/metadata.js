@@ -10,5 +10,7 @@ module.exports = {
 		city: "Herent",
 		country: "België",
 		link: "https://goo.gl/maps/Uh1MN5SQFpmxxETr8",
+		coordinates: [50.910536, 4.674575],
+		regionCode: "BE-VBR", // Vlaams-Brabant
 	},
 }
