@@ -12,4 +12,4 @@ We weten allemaal dat de officiële Chirokledij zeer duur is, daarom willen wij 
 
 Wanneer?
 
-**Vanaf zondag 22/09 tot de laatste chirozondag staan we altijd klaar om 17:00!**
+**Vanaf zondag 21/09 tot de laatste chirozondag staan we altijd klaar om 17:00!**
