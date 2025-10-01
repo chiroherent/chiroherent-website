@@ -1,39 +1,45 @@
 module.exports = function (eleventyConfig) {
-  // call functions on eleventyConfig here
+  // eleventy configuratie
+  // Dit is het startpunt waarvan de site gegenereerd wordt
 
-  // add support for yaml data files
+  // ondersteun yaml bestanden
+  // nodig om leiding.yaml te lezen
   eleventyConfig.addDataExtension("yaml", (contents) => require("js-yaml").load(contents));
 
-  // add navbar plugin
+  // voeg navbar plugin toe
   eleventyConfig.addPlugin(require("@11ty/eleventy-navigation"));
 
-  // add current year to a page
+  // Voeg jaar van genereren toe aan een pagina met {% year %}
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-  // order the homepage items
+  // sorteren van de nieuwtjes op de homepagina
   const collectionSorted = require('./config/collections/collectionSorted');
   eleventyConfig.addCollection('HomepageLeftSorted', (collection) => collectionSorted(collection, 'HomepageLeft'));
   eleventyConfig.addCollection('HomepageRightSorted', (collection) => collectionSorted(collection, 'HomepageRight'));
 
-  // add a filter to format dates
+  // Getal naar maandnaam 
+  // bv {{ 1 | numberToMonth }} geeft januari
   eleventyConfig.addFilter('numberToMonth', require('./config/filters/numbertomonth'));
 
-  // add formats to be processed
+  // Extra bestandstypes die 11ty moet verwerken
+  // (Hiermee kan je ook 11ty functies gebruiken in deze bestanden)
   eleventyConfig.addTemplateFormats([
     "css",
     "js",
     "json"
   ]);
 
-  // these files and folders will be copied without being processed by 11ty
+  // Deze bestanden of mappen worden gekopieerd naar de output zonder verwerking
   eleventyConfig.addPassthroughCopy("src/media");
-  eleventyConfig.addPassthroughCopy("src/kwikken"); // just for fun, remove if you want
+  eleventyConfig.addPassthroughCopy("src/kwikken"); // onbelangrijk, verwijder als je wil
 };
 
 module.exports.config = {
+  // njk (Nunjucks) is de standaard template engine
   markdownTemplateEngine: "njk",
   htmlTemplateEngine: "njk",
   dir: {
+    // locaties die 11ty gebruikt
     input: "src",
     includes: "_includes",
     data: "_data",

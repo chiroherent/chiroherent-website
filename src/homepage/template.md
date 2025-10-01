@@ -11,6 +11,8 @@ paragraaf 1, met **vette tekst**
 
 Paragraaf 2 [Link text](https://iets) verder paragraaf 2
 
+Paragraaf 3 link naar een pagina op deze site, bv: [Lid Worden]({{ '/lidworden' | url }})
+
 * lijst item
 * lijst item
   * subitem
