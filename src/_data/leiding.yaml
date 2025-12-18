@@ -1,15 +1,19 @@
 ---
 hoofdleiding:
-- name: Lukas Verboven
-  email: lukas.verboven@gmail.com
+- name: Ferre Vanwoensel
+  email: ferrevanwoensel@gmail.com
   phone: 
   
-- name: Mette Couvreur
-  email: mette.couvreur@hotmail.com
+- name: Jutta Casaer
+  email: jutta.casaer@gmail.com
   phone: 
-  
+
 - name: Lara Stulens
   email: lara.stulens@gmail.com
+  phone: 
+
+- name: Rens Melio
+  email: rens.melio@hotmail.com
   phone: 
   
 vb:
@@ -22,85 +26,85 @@ vb:
   phone: "+32 479 37 66 31"
   
 kiekeboes:
-- name: Hasse Casaer
-  email: hasse.casaer@gmail.com
-  phone: 
+- name: Rens Melio
+  email: rens.melio@hotmail.com
+  phone:  
   
-- name: Ferre Vanwoensel
-  email: ferrevanwoensel@gmail.com
-  phone: 
+- name: Janne Breesch
+  email: breeschjanne@gmail.com
+  phone:  
   
-- name: Han Resseler
-  email: resselerh@gmail.com
-  phone: 
+- name: Josefien Wellens
+  email: josefien.wellens@gmail.com
+  phone:  
   
-- name: Lukas Verboven
-  email: lukas.verboven@gmail.com
+- name: Amily Hennes
+  email: amily.hennes@gmail.com
   phone: 
 
 speelclub:
-- name: Norah Sterck
-  email: norah.sterck@gmail.com
+- name: Loïs Huybens
+  email: lois.huybens@outlook.com
   phone: 
   
-- name: Marius Wyffels
-  email: mariuswyffels@gmail.com
-  phone: 
-  
-- name: Jutta Casaer
-  email: jutta.casaer@gmail.com
-  phone: 
-  
-- name: Phil Huybens
-  email: phil.huybens@outlook.com
-  phone: 
-
-kwikken:
-- name: Tine Van Der Spiegel
-  email: tinevdsp@gmail.com
+- name: Stien Debeuckelaer
+  email: stiendebeuckelaer@gmail.com
   phone: 
   
 - name: Lara Stulens
   email: lara.stulens@gmail.com
+  phone:  
+  
+- name: Jolan Schelfhout
+  email: 
+  phone: 
+
+kwikken:
+- name: Ferre Vanwoensel
+  email: ferrevanwoensel@gmail.com
   phone: 
   
-- name: Mette Couvreur
-  email: mette.couvreur@gmail.com
+- name: Norah Sterck
+  email: norah.sterck@gmail.com
+  phone:
+  
+- name: Robine Joris
+  email: robine.joris@hotmail.com
   phone: 
 
 rakkers:
-- name: Jarne Vanwallenghem
-  email: jarne.vanwallenghem@gmail.com
+- name: Jona Couvreur
+  email: Jona.couvreur@gmail.com
   phone: 
   
-- name: Anke Goyens
-  email: goyensanke@yahoo.com
+- name: Kaat Debeuckelaer
+  email: kaatdebeuckelaer@icloud.com
   phone: 
 
 tippers:
-- name: Janne Breesch
-  email: breeschjanne@gmail.com
+- name: Tine Van der Spiegel
+  email: tinevdsp@gmail.com
   phone: 
   
-- name: Sara Jacobs
-  email: jacobssara01@gmail.com
+- name: Elle Collet
+  email: elle.collet0@gmail.com
   phone: 
   
-- name: Lis Hannot
-  email: lishannot@hotmail.com
+- name: Nienke Bosmans
+  email: nienkebosmans5@gmail.com
   phone: 
   
 toppers:
-- name: Mara Malliet
-  email: mara.malliet@gmail.com
+- name: Marius Wyffels
+  email: mariuswyffels@gmail.com
+  phone:  
+  
+- name: Tobe Breesch
+  email: breeschtobe@gmail.com
   phone: 
   
-- name: Marianne Maes
-  email: mariannemaes2005@gmail.com
-  phone: 
-  
-- name: Bas Vander Vorst
-  email: basvandervorst4@gmail.com
+- name: Marilou van der Sterren
+  email: 
   phone: 
   
 tiptiens:
@@ -108,42 +112,34 @@ tiptiens:
   email: juliepoplemont@live.be
   phone: 
   
-- name: Josefien Wellens
-  email: josefien.wellens@gmail.com
-  phone: 
-  
-- name: Alizée Jacobs
-  email: alizee.jacobs@hotmail.be
-  phone: 
-  
+- name: Lis Hannot
+  email: lishannot@hotmail.com
+  phone:  
+   
 kerels:
-- name: Stien Debeuckelaer
-  email: stiendebeuckelaer@gmail.com
+- name: Maureen Deschryver
+  email: deschryver.maureen@gmail.com 
   phone: 
-  
-- name: Rens Melio
-  email: rens.melio@hotmail.com
-  phone: 
-  
+    
 - name: Carsten Hoogenberg
   email: carstenhoogenberg@gmail.com
   phone: 
   
 aspimeisjes:
-- name: Loïs Huybens
-  email: lois.huybens@outlook.com
-  phone: 
+- name: Sara Jacobs
+  email: jacobssara01@gmail.com
+  phone:
   
-- name: Pixie Neyens
-  email: pixie.neyens@hotmail.com
+- name: Jutta Casaer
+  email: jutta.casaer@gmail.com
   phone: 
 
 aspijongens:
-- name: Siko Couvreur
-  email: siko.couvreur@gmail.com
+- name: Jarne Vanwallenghem
+  email: jarne.vanwallenghem@gmail.com
   phone: 
   
-- name: Elgar Suy
-  email: elgarsvb@gmail.com
-  phone: 
+- name: Bas Vander Vorst
+  email: basvandervorst4@gmail.com
+  phone:
   
